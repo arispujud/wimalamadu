@@ -1,0 +1,26 @@
+{
+    "name": "freeweb/wimalamadu",
+    "description": "Wimalamadu Web",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "APKIT",
+            "email": "info@apkit.id"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Wimalamadu\\Providers\\WimalamaduServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Wimalamadu\\": ""
+        }
+    }
+}

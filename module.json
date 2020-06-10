@@ -1,0 +1,13 @@
+{
+    "name": "Wimalamadu",
+    "alias": "wimalamadu",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Wimalamadu\\Providers\\WimalamaduServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
