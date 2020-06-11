@@ -1,0 +1,98 @@
+
+html.sticky-header-active #header .header-body {
+    background: #fdd100;
+    border-bottom-color: #fdd100;
+}
+#header .header-nav-main nav > ul > li > a {
+    color: #212529 !important;
+}
+.social-icons.custom-social-icons-style-1 li a {
+    background: white !important;
+    color: #212529 !important;
+}
+.tparrows:before {
+    font-family: revicons;
+    font-size: 15px;
+    color: #212529;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+
+#header .header-nav-main nav > ul > li:hover > a.active, #header .header-nav-main nav > ul > li.open > a.active {
+    color: #212529 !important;
+    font-weight: bold !important;
+}
+#header .header-nav-main nav > ul > li > a.active {
+    color: #212529 !important;
+    font-weight: bold !important;
+}
+@media (min-width: 992px){
+    #header .header-nav-main nav > ul > li:hover > a, #header .header-nav-main nav > ul > li.open > a {
+        color: #212529 !important;
+        font-weight: bold !important;
+    }
+}
+#header .header-nav-main nav > ul > li > a.active:before {
+    border-color: #212529;
+}
+#header .header-nav-main nav > ul > li:hover > a.active:before, #header .header-nav-main nav > ul > li.open > a.active:before {
+    border-color: #212529;
+}
+html .bg-color-tertiary, html .bg-tertiary {
+    background-color: #fdd100 !important;
+}
+html .text-color-secondary, html .text-secondary {
+    color: #fdd100 !important;
+}
+
+html .btn-primary {
+    background-color: #fdd100;
+    border-color: #fdd100 #fdd100 #fdd100;
+    color: #212529;
+}
+
+html .btn-primary:hover, html .btn-primary.hover {
+    background-color: #fee505;
+    border-color: #fee505 #fee505 #fee505;
+    color: #212529;
+}
+
+html .btn-primary:active, html .btn-primary.active {
+    background-color: #b69b01 !important;
+    background-image: none !important;
+    border-color: #b69b01 #b69b01 #b69b01 !important;
+}
+
+html section.section-primary {
+    background-color: #fdd100 !important;
+    border-color: #fdd100 !important;
+}
+
+.btn.custom-btn-style-1._color-2:hover {
+    background: rgba(241, 243, 138, 0.4) !important;
+}
+
+.btn.custom-btn-style-1._color-2 {
+    border: 1px solid rgba(36, 34, 20, 0.5) !important;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span {
+    background-color: #212529;
+}
+
+.owl-carousel .owl-nav button[class*="owl-"]:hover, .owl-carousel .owl-nav button[class*="owl-"].hover {
+    background-color: #212529;
+    border-color: #212529 #212529 #212529;
+    color: #fdd100;
+}
+
+.owl-carousel .owl-nav button[class*="owl-"] {
+    background-color: #212529;
+    border-color: #212529 #212529 #212529;
+    color: #FFF;
+}
+
+.thumb-info.custom-thumb-info-style-1 .thumb-info-wrapper:after {
+    background-color: rgba(19, 18, 0, 0.8);
+}
