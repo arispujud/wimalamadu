@@ -1,5 +1,5 @@
 {
-    "name": "freeweb/wimalamadu",
+    "name": "freeweb/wimalamadu-module",
     "description": "Wimalamadu Web",
     "type": "laravel-module",
     "authors": [
